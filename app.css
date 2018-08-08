@@ -35,6 +35,16 @@
     background-repeat: no-repeat;
 }
 
+a {
+  font-size: 25px;
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  text-decoration: none;
+  color: red;
+}
+
 .card , .card-title , .card-text, h5, p{
   color: black !important;
   font-family: 'Josefin Sans', sans-serif;
