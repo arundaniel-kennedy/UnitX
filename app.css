@@ -42,7 +42,7 @@ a {
 }
 a:hover{
   text-decoration: none;
-  color: red;
+  color: gray;
 }
 
 .card , .card-title , .card-text, h5, p{
