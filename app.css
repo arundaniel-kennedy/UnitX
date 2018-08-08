@@ -21,7 +21,7 @@
     position: absolute;
     top: 100%;
     text-align: center;
-    
+
   }
 
   #particles-js
@@ -69,5 +69,4 @@ a:hover{
 .card , .card-title , .card-text, h5, p{
   color: black !important;
   font-family: 'Josefin Sans', sans-serif;
-  background-color: #9fa2b6;
 }
