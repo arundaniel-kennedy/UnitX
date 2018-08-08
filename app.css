@@ -21,13 +21,8 @@
   .content{
     position: absolute;
     top: 100%;
-<<<<<<< HEAD
-=======
-    text-align: center;
-
->>>>>>> 0e317f9a27eb072e473be94a3c164fb74465f29b
   }
-
+  
   #particles-js
   {
     width: 100%;
