@@ -14,14 +14,18 @@
 
   body
   {
+    width: 100%;
     background-color: black !important;
     background-repeat: repeat;
   }
   .content{
     position: absolute;
     top: 100%;
+<<<<<<< HEAD
+=======
     text-align: center;
 
+>>>>>>> 0e317f9a27eb072e473be94a3c164fb74465f29b
   }
 
   #particles-js
@@ -69,4 +73,29 @@ a:hover{
 .card , .card-title , .card-text, h5, p{
   color: black !important;
   font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
 }
