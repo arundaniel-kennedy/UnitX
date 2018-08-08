@@ -2,13 +2,13 @@
 
   .centertext
   {
-    position: absolute;
     left: 0;
     top: 40%;
     width: 100%;
     text-align: center;
     color: white;
-    font-size: 60px;
+    position: absolute;
+    font-size: 58px;
     font-family: 'Josefin Sans', sans-serif;
   }
 
@@ -21,8 +21,7 @@
     position: absolute;
     top: 100%;
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    
   }
 
   #particles-js
