@@ -15,7 +15,7 @@
   .abouttext
   {
     left: 0;
-    top: 110%;
+    top: 100%;
     width: 100%;
     text-align: center;
     color: white;
@@ -32,7 +32,7 @@
   }
   .content{
     position: absolute;
-    top: 220%;
+    top: 210%;
   }
 
   #particles-js
