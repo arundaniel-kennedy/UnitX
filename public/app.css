@@ -3,7 +3,7 @@
   .centertext
   {
     left: 0;
-    top: 40%;
+    top: 30%;
     width: 100%;
     text-align: center;
     color: white;
@@ -86,28 +86,54 @@ a:hover{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  .content{
+    top: 260%;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+  .content{
+    top: 260%;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-
+  .content{
+    margin-left: 1%;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
 .content
 {
-margin-left: 17%;
+  top : 210%;
+  margin-left: 5%;
 }
+}
+@media only screen and (min-width: 1110px) {
+  .content
+  {
+    top : 210%;
+    margin-left: 8%;
+  }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 .content
 {
-  margin-left: 17%;
+  top: 210%;
+  margin-left: 15%;
 }
+}
+
+@media only screen and (min-width: 1900px) {
+  .content
+  {
+    top: 210%;
+    margin-left: 25%;
+  }
+  }
 }
