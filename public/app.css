@@ -60,8 +60,8 @@ a:hover{
   margin: 8% 0;
 }
 .bounce {
-  -moz-animation: bounce 2s infinite;
-  -webkit-animation: bounce 2s infinite;
+  -moz-animation: bounce 1s infinite;
+  -webkit-animation: bounce 1s infinite;
   animation: bounce 2s infinite;
 }
 
@@ -85,35 +85,26 @@ a:hover{
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 360px) {
   .content{
     top: 260%;
   }
 }
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 360px) {
   .content{
-    top: 260%;
-  }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .content{
-    margin-left: 1%;
+    top: 240%;
   }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 990px) {
 .content
 {
   top : 210%;
   margin-left: 5%;
 }
 }
-@media only screen and (min-width: 1110px) {
+@media only screen and (min-width: 1080px) {
   .content
   {
     top : 210%;
@@ -125,7 +116,7 @@ a:hover{
 .content
 {
   top: 210%;
-  margin-left: 17%;
+  margin-left: 14%;
 }
 }
 @media only screen and (min-width: 1300px) {
@@ -136,10 +127,26 @@ a:hover{
 }
 }
 
+@media only screen and (min-width: 1400px) {
+.content
+{
+  top: 210%;
+  margin-left: 19%;
+}
+}
+
+@media only screen and (min-width: 1600px) {
+.content
+{
+  top: 210%;
+  margin-left: 21%;
+}
+}
+
 @media only screen and (min-width: 1900px) {
   .content
   {
-    top: 210%;
+    top: 200%;
     margin-left: 25%;
   }
   }
