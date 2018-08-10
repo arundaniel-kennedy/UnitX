@@ -95,15 +95,83 @@ a:hover{
 }
 @media only screen and (min-width: 360px) {
   .content{
-    top: 280%;
+    top: 300%;
   }
 }
+
+@media only screen and (min-width: 400px) {
+  .content{
+    top: 260%;
+  }
+}
+
+
+@media only screen and (min-width: 575px) {
+.content
+{
+  top : 210%;
+  margin-left: 4%;
+}
+.card{
+  width: 110% !important;
+  height: 100% !important;
+}
+}
+
+@media only screen and (min-width: 650px) {
+.content
+{
+  top : 210%;
+  margin-left: 13%;
+}
+.card{
+  width: 115% !important;
+  height: 100% !important;
+}
+}
+
+@media only screen and (min-width: 750px) {
+.content
+{
+  top : 210%;
+  margin-left: 5%;
+}
+.card{
+  width: 110% !important;
+  height: 100% !important;
+}
+}
+
+@media only screen and (min-width: 850px) {
+.content
+{
+  top : 210%;
+  margin-left: 9%;
+}
+.card{
+  width: 110% !important;
+  height: 100% !important;
+}
+}
+
+@media only screen and (min-width: 900px) {
+.content
+{
+  top : 210%;
+  margin-left: 9%;
+}
+.card{
+  width: 110% !important;
+  height: 100% !important;
+}
+}
+
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 990px) {
 .content
 {
   top : 210%;
-  margin-left: 3%;
+  margin-left: 4%;
 }
 .card{
   width: 100% !important;
@@ -113,9 +181,12 @@ a:hover{
   .content
   {
     top : 210%;
-    margin-left: 7%;
+    margin-left: 6%;
   }
-}
+  .card{
+    width: 100% !important;
+  }
+  }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
 .content
@@ -123,12 +194,19 @@ a:hover{
   top: 210%;
   margin-left: 5%;
 }
+.card{
+  width: 100% !important;
+}
+}
 }
 @media only screen and (min-width: 1300px) {
 .content
 {
   top: 210%;
-  margin-left: 9%;
+  margin-left: 8%;
+}
+.card{
+  width: 100% !important;
 }
 }
 
@@ -136,7 +214,21 @@ a:hover{
 .content
 {
   top: 210%;
-  margin-left: 10%;
+  margin-left: 13%;
+}
+.card{
+  width: 100% !important;
+}
+}
+
+@media only screen and (min-width: 1500px) {
+.content
+{
+  top: 210%;
+  margin-left: 15%;
+}
+.card{
+  width: 100% !important;
 }
 }
 
@@ -144,7 +236,10 @@ a:hover{
 .content
 {
   top: 210%;
-  margin-left: 15%;
+  margin-left: 17%;
+}
+.card{
+  width: 100% !important;
 }
 }
 
@@ -154,5 +249,7 @@ a:hover{
     top: 200%;
     margin-left: 20%;
   }
+  .card{
+    width: 100% !important;
   }
-}
+  }
