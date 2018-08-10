@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 
+  html{
+    overflow-x: hidden;
+  }
   .centertext
   {
     left: 0;
@@ -87,28 +90,30 @@ a:hover{
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 360px) {
   .content{
-    top: 260%;
+    top: 380%;
   }
 }
 @media only screen and (min-width: 360px) {
   .content{
-    top: 240%;
+    top: 280%;
   }
 }
-
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 990px) {
 .content
 {
   top : 210%;
-  margin-left: 5%;
+  margin-left: 3%;
+}
+.card{
+  width: 100% !important;
 }
 }
 @media only screen and (min-width: 1080px) {
   .content
   {
     top : 210%;
-    margin-left: 8%;
+    margin-left: 7%;
   }
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -116,14 +121,14 @@ a:hover{
 .content
 {
   top: 210%;
-  margin-left: 14%;
+  margin-left: 5%;
 }
 }
 @media only screen and (min-width: 1300px) {
 .content
 {
   top: 210%;
-  margin-left: 17%;
+  margin-left: 9%;
 }
 }
 
@@ -131,7 +136,7 @@ a:hover{
 .content
 {
   top: 210%;
-  margin-left: 19%;
+  margin-left: 10%;
 }
 }
 
@@ -139,7 +144,7 @@ a:hover{
 .content
 {
   top: 210%;
-  margin-left: 21%;
+  margin-left: 15%;
 }
 }
 
@@ -147,7 +152,7 @@ a:hover{
   .content
   {
     top: 200%;
-    margin-left: 25%;
+    margin-left: 20%;
   }
   }
 }
