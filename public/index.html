@@ -13,6 +13,18 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'UA-123643575-1');
+    
+    function disableselect(e){
+      return false
+    }
+    function reEnable(){
+      return true
+    }
+    document.onselectstart=new Function ("return false")
+    if (window.sidebar){
+        document.onmousedown=disableselect
+        document.onclick=reEnable
+      }
   </script>
 
   <meta property="og:url" content="https://weunitx.com">
