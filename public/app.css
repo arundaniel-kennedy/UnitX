@@ -26,11 +26,18 @@ a:hover {
 
 /* bootstrap overwrite */
 
-.card,
+.card
+{
+    color: black !important;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100 % !important;
+}
+
 .card-title,
 .card-text,
 h5,
 p {
+    font-size : 1rem;
     color: black !important;
     font-family: 'Josefin Sans', sans-serif;
 }
@@ -49,9 +56,16 @@ p {
     font-family: 'Josefin Sans', sans-serif;
 }
 
-.content {
-    position: absolute;
-    top: 100%;
+.abouttext
+{
+  left: 0;
+  top: 100%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 #particles-js {
@@ -93,7 +107,11 @@ p {
 
 /* Extra small devices (phones, 600px and down) */
 
-@media only screen and (max-width: 600px) {}
+@media only screen and (max-width: 600px) {
+  .smallerscreen{
+    margin-top: 13%;
+  }
+}
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
