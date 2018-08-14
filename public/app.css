@@ -47,12 +47,12 @@ p {
 
 .centertext {
     left: 0;
-    top: 40%;
+    top: 30%;
     width: 100%;
     text-align: center;
     color: white;
     position: absolute;
-    font-size: 58px;
+    font-size: 700%;
     font-family: 'Josefin Sans', sans-serif;
 }
 
