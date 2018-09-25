@@ -1,0 +1,11 @@
+*.DS_Store
+.DS_Store
+
+*.firebase
+.firebase
+
+*firebase.json
+firebase.json
+
+*.firebaserc
+.firebaserc
